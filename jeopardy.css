@@ -1,0 +1,63 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+body {
+  background: rgb(6, 12, 233);
+  background: linear-gradient(90deg, rgba(99,103,252,1) 0%, rgba(40,110,245,1) 25%, rgba(180,77,222,1) 100%);
+  font-family: ITC Korinna;
+}
+
+h1 {
+  outline: 5px solid rgb(11, 12, 11);
+  background: #115ff4;
+  text-shadow: #000000;
+}
+
+
+
+#jeopardy {
+  text-align: center;
+  font-size: 11pt;
+  background-color: #115ff4;
+}
+
+#jeopardy th, #jeopardy td {
+  border: solid 2px black;
+  width: 200px;
+  padding: 1em;
+}
+
+th {
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  height: 100m;
+  text-shadow: rgb(149, 11, 184) 2px 2px;
+}
+
+td {
+  height: 180px;
+  font-family: ITC Korinna;
+}
+
+td:hover {
+  cursor: pointer;
+  background-color: #5d3475;
+}
+
+.td-question {
+  background-color: rgb(109, 19, 86);
+  transform: rotateY( 360deg );
+  transition: transform 0.5s;
+}
+
+.td-answer {
+  background-color: #7829a5;
+  transform: rotateY( 0deg );
+  transition: transform 0.5s;
+}
